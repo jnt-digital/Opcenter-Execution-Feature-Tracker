@@ -11,11 +11,11 @@ Keeping track of what features were introduced in which version across Opcenter 
 - **Compare features** between Core, Electronics, and Semiconductor suit
 
 ### Legend
-| Code | Product | Description |
-|------|---------|-------------|
-| **CR** | Opcenter Execution Core | Base platform and core functionality |
-| **EL** | Opcenter Execution Electronics | Electronics manufacturing features |
-| **SM** | Opcenter Execution Semiconductor | Semiconductor manufacturing features |
+| Code | Product |
+|------|---------|
+| **CR** | Opcenter Execution Core |
+| **EL** | Opcenter Execution Electronics |
+| **SM** | Opcenter Execution Semiconductor |
 
 ## 📊 Usage Examples
 

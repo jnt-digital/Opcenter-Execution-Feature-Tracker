@@ -32,7 +32,8 @@ Keeping track of what features were introduced in which version across Opcenter 
 ## 📞 Contact
 
 **Name**: Jan Tichy  
-**Email**: [jan.tichy@jnt-digital.net](mailto:jan.tichy@jnt-digital.net)  
+**Email**: [jan.tichy@jnt-digital.net](mailto:jan.tichy@jnt-digital.net)
+**Web**: <https://www.jnt-digital.net> 
 
 ## ⚠️ Disclaimer
 

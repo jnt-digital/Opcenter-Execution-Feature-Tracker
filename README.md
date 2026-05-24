@@ -49,6 +49,83 @@ Use this information at your own discretion and always verify against official s
 ## 🗃️ Feature List
 | Name                                            | Descipriton                                                                                                                                                                                                                                                                                                                                                                                                                                               | Category                        | Product | Version |
 | ----------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- | ------- | ------- |
+| Electronic Procedures Additional Menu Actions | Added menu actions for changing quantity, hold/release processing, production event recording, and viewing container status. | Mendix Module | CR | 2604 |
+| Electronic Procedures Team Tracking | Added support for team tracking capabilities within Electronic Procedures. | Mendix Module | CR | 2604 |
+| Electronic Procedures Computation Tasks | Added support for computation tasks including electronic signatures and process timers. | Mendix Module | CR | 2604 |
+| Document Viewer Preview Mode | Added preview mode support in the document viewer. | Mendix Module | CR | 2604 |
+| Document Viewer View Toggle | Added ability to toggle between list view and preview mode in the document viewer. | Mendix Module | CR | 2604 |
+| Document Viewer Carousel | Added document carousel functionality for easier document navigation. | Mendix Module | CR | 2604 |
+| Document Viewer File Type Support | Added support for handling various file types in the document viewer. | Mendix Module | CR | 2604 |
+| Document Viewer Quick Attach | Added functionality to quickly attach documents. | Mendix Module | CR | 2604 |
+| Operator Time Tracking Supervisor Assignment | Added ability for supervisors to assign, unassign, and review operator or team assignments for work areas. | Labor Management | CR | 2604 |
+| Operator Time Tracking Sign In/Out | Added support for operators and teams to sign into or out of work areas for labor tracking. | Labor Management | CR | 2604 |
+| Operator Time Tracking Sub-Activity Tracking | Added sub-activity tracking within activity groups for containers and manufacturing orders. | Labor Management | CR | 2604 |
+| Operator Time Tracking Activity Group Assignment | Added ability to assign activity groups to containers, manufacturing orders, products, or factories. | Labor Management | CR | 2604 |
+| Operator Time Tracking Non-Value Activities | Added support for signing into non-value activities while remaining signed into value-added work. | Labor Management | CR | 2604 |
+| Workflow Parallel Processing | Added support for spread and parallel activity processing workflows. | Workflow Management | CR | 2604 |
+| Workflow Activity Specification Modeling | Added capability to model workflows using activity specifications and configurable attributes. | Workflow Management | CR | 2604 |
+| Shop Floor Activity Transactions | Added new shop floor UI for activity start, next, complete, and end transactions. | Workflow Management | CR | 2604 |
+| Shop Floor Material and Procedure Transactions | Added support for component issue/replace/remove, data collection, electronic procedures, and hold/release transactions. | Workflow Management | CR | 2604 |
+| Shop Floor Container Transactions | Added support for container rename, attribute maintenance, container maintenance, and production event recording. | Workflow Management | CR | 2604 |
+| SPC Boxplot Visualization | Added boxplot visualization support including subgroup measurement value display for enhanced statistical analysis. | SPC | CR | 2604 |
+| SPC Transaction Tester Defaults | Enhanced Transaction Tester loader script to apply default SPC parameters automatically. | SPC | CR | 2604 |
+| Opcenter Chat Conversational AI | Added conversational AI interface for interacting with Siemens technical documentation. | Artificial Intelligence | CR | 2604 |
+| Opcenter Chat Natural Language Queries | Added natural language query support with AI-generated responses and follow-up interaction. | Artificial Intelligence | CR | 2604 |
+| Opcenter Chat Portal and Mendix Access | Added accessibility for Opcenter Chat from both Portal and Mendix-based user interfaces. | Artificial Intelligence | CR | 2604 |
+| Opcenter Chat Access Control | Added global enable/disable settings and user-specific access control for Opcenter Chat. | Artificial Intelligence | CR | 2604 |
+| LIMS Integration MES Connectivity | Added integration between Opcenter Execution Core MES and Opcenter RD&L LIMS. | LIMS Integration | CR | 2604 |
+| LIMS Test Synchronization | Added synchronization of sample tests defined in LIMS to MES. | LIMS Integration | CR | 2604 |
+| LIMS Sample Request Processing | Added capability for MES to send sample requests to LIMS and receive identifiers and test results. | LIMS Integration | CR | 2604 |
+| Dynamic Purge Tool Amazon RDS Support | Added support for Amazon RDS-compatible database role grants. | Installation | CR | 2604 |
+| Dynamic Purge Tool Backward Compatibility | Added standalone compatibility with previous Opcenter Execution Core releases from 2210 to 2604. | Installation | CR | 2604 |
+| Dynamic Purge Tool SQL Server Support | Added support for Microsoft SQL Server deployments only. | Installation | CR | 2604 |
+| Power BI Modeling Configuration Reports | Added new Power BI reports for modeling configuration analysis. | Reporting | CR | 2604 |
+| Power BI Labor Activity Reports | Added new Power BI reports for labor activity analysis. | Reporting | CR | 2604 |
+| Power BI eDHR Reports | Added new Electronic Device History Record (eDHR) Power BI reports. | Reporting | CR | 2604 |
+| Portal Color Picker Styling | Updated styling of the Portal color picker control and moved avatar placement to the top-right corner. | User Interface | CR | 2604 |
+| Portal to Mendix Single Sign-On | Added single sign-on support between Portal and Mendix applications. | Single Sign-On | CR | 2604 |
+| Mendix Experiment, Recipe, and Engineering Management Enhancements | Continued enhancement of Mendix-based Experiment, Recipe, and Engineering Management pages to provide a more role-based and user-friendly experience. | Mendix Module | SM | 2604 |
+| WIP Data Setup UI Enhancement | Updated the WIP Data Setup page by replacing the Edit pop-up with a slide-out panel and improving navigation titles for Add and Edit actions. | Mendix Module | SM | 2604 |
+| WIP Main Simple Continuous Enhancements | Enhanced the WIP Main Simple page with additional role-based usability improvements and expanded configuration options. | Mendix Module | SM | 2604 |
+| WIP Main Simple E-Procedure Support | Added E-Procedure enhancements to the WIP Main Simple page. | Mendix Module | SM | 2604 |
+| WIP Main Simple Check Sheet Support | Added Check Sheet enhancements to the WIP Main Simple page. | Mendix Module | SM | 2604 |
+| SPC Chart Download Image | Added a "Download Image" button to SPC chart outputs for saving chart images locally. | SPC | SM | 2604 |
+| SPC xAxisLabelsRotation Parameter | Added support for configuring x-axis label rotation angles in Inline SPC charts. | SPC | SM | 2604 |
+| SPC DisplayDescriptiveStats Parameter | Added support for displaying descriptive statistical metrics directly on SPC charts. | SPC | SM | 2604 |
+| SPC FailureBackgroundColor Parameter | Added support for configuring background color changes on SPC charts when violations or outliers are detected. | SPC | SM | 2604 |
+| SPC Failure Spec Field Rename | Renamed the "Failure Spec at Track In/Out" field to "Failure Spec" in SPC Setups and SPC Basic Setup. | SPC | SM | 2604 |
+| SPC Equipment WIP Data Support | Updated SPC functionality to properly support WIP Data integration when Equipment is selected in the WIP Data interface. | SPC | SM | 2604 |
+| SPC Equipment Status Logic Enhancement | Updated the logic controlling equipment status changes after an SPC violation. | SPC | SM | 2604 |
+| Mendix UI NPI Product Viewer | Added new Mendix UI providing equivalent functionality to the NPI Product Viewer page in the Opcenter Portal. | Mendix Module | EL | 2604 |
+| NPI Product Viewer CAD Visualization | Added support for opening CAD visualization for an NPI Product by selecting a Mfg Order or Product. | Mendix Module | EL | 2604 |
+| NPI Product Viewer Spec Behavior Support | Added support for applying Spec-configured Production Client behavior options within the NPI Product Viewer. | Mendix Module | EL | 2604 |
+| IPL Split Container Primary Serial Number | Enhanced the Split Container Portal page to support specifying a Primary Serial Number for each newly split container. | IPL Integration | EL | 2604 |
+| IPL Split Service Serial Number Generation | Enhanced the Split service to automatically generate Primary Serial Numbers when no Serial Number is provided. | IPL Integration | EL | 2604 |
+| IPL Container Started Message | Updated CIO Outbound functionality to send Container Started messages to IPL for newly created containers. | IPL Integration | EL | 2604 |
+| Connect Electronics Bulk Container Over-Consumption | Added support for over-consumption of bulk containers when processing component issue transactions from Connect Electronics. | Opcenter Connect Integration | EL | 2604 |
+| Connect Electronics Scrap During Multi Container Defect | Added support for scrapping containers during Multi Container Defect processing for test equipment integrations. | Opcenter Connect Integration | EL | 2604 |
+| Process Prep 3D Board Viewer Embedding | Added support for embedding the Process Prep 3D Board Viewer within Production Client and NPI Product Viewer pages. | Process Prep Integration | EL | 2604 |
+| Process Prep Two-Way Viewer Communication | Added two-way communication between the Process Prep Board Viewer and Portal pages for synchronized component selection. | Process Prep Integration | EL | 2604 |
+| Production Client Panelized Material Setup | Enhanced Production Client to support panelized containers when using Material Setup and Box mode display. | Production Client | EL | 2604 |
+| Production Client Bulk Container Quantity Validation | Added validation to ensure bulk containers contain sufficient quantity for each PCB during Material Setup processing. | Production Client | EL | 2604 |
+| Production Client Clear Material Setup Values | Added functionality to clear all Material Setup values when the Use Material Setup option is enabled on the Spec. | Production Client | EL | 2604 |
+| Production Client Material Setup Quantity Column | Added a new column in the Box grid to display the current quantity of containers saved in Material Setup. | Production Client | EL | 2604 |
+| Production Client Show Move Pop-up Option | Added new Spec option to always display the Move pop-up and allow operators to specify To Resource and Path values. | Production Client | EL | 2604 |
+| Production Client Box Product Serial Number Assignment | Added new Spec option to assign the Primary Serial Number of the first scanned serial item to the Box container. | Production Client | EL | 2604 |
+| Operator Time Tracking Work Area Types | Added new work area types for Sign In and Sign Out operations including Mfg Order, Container, and Labor Activity. | Labor Management | EL | 2604 |
+| Operator Time Tracking Value Activity Support | Added support for configuring Labor Activities as value-added or non-value-added for labor tracking. | Labor Management | EL | 2604 |
+| Operator Time Tracking Assigned Activity Restriction | Added new Employee and Team option restricting sign-in to assigned activities only. | Labor Management | EL | 2604 |
+| Operator Time Tracking Assignment Mendix UI | Added new Mendix UI for assigning and removing Mfg Orders and Containers from Employees and Teams. | Mendix Module | EL | 2604 |
+| Operator Time Tracking Sign In/Out Mendix UI | Added new Mendix UI supporting Sign In and Sign Out for work area assignments and Labor Activities. | Mendix Module | EL | 2604 |
+| Operator Time Tracking Home Page Access | Added dedicated Home page access for the Operator Time Tracking Mendix UI. | Mendix Module | EL | 2604 |
+| Operator Time Tracking E-Procedure Access | Added access to the Operator Time Tracking Mendix UI from the Electronics Procedure Mendix UI. | Mendix Module | EL | 2604 |
+| AI Repair Advisor General Availability | Released AI Repair Advisor as a generally available feature for Opcenter Execution Electronics users. | Artificial Intelligence | EL | 2604 |
+| AI Repair Advisor Production Client Integration | Added AI Repair Advisor access directly within the Production Client. | Artificial Intelligence | EL | 2604 |
+| AI Repair Advisor Defect Guidance | Added AI-based defect handling guidance for flying probe, ICT, and FCT defects using historical production data. | Artificial Intelligence | EL | 2604 |
+| AI Repair Advisor Machine Learning Prediction | Added machine learning prediction of likely repair actions, NFF outcomes, and top-5 defect locations for new defects. | Artificial Intelligence | EL | 2604 |
+| AI Repair Advisor On-Premise Training | Added support for on-premise AI model training and retraining using CPU-based servers without GPU requirements. | Artificial Intelligence | EL | 2604 |
+| AI Repair Advisor Licensing | Added AI Repair Advisor as a licensed add-on feature for Opcenter Execution Electronics. | Artificial Intelligence | EL | 2604 |
+| Mendix UI Enhancements | Added general usability and interface enhancements to the Mendix UI. | Mendix Module | EL | 2604 |
 | Electronic Procedures Mendix Module             | Redesigned and optimized operator terminal user interface that supports the most critical task types with electronic signatures including: Instruction tasks (pass/fail, acknowledgement, data collection) and Transaction tasks (move in, move, collect data, component issue). Enables traditional process timers and a new task timer. Introduces support for task-specific material lists for component issues.                                       | Portal                          | CR      | 2510    |
 | Hold Management Mendix Module                   | Operator interface that allows initiating and viewing holds for Container, Manufacturing order, and Product. Supports optionally defining a custom hold message that is displayed to the operator when attempting to process a held item. Provides the capability to search for items currently on hold and release one or multiple items in a single, streamlined transaction.                                                                           | Quality                         | CR      | 2510    |
 | Modeling Copilot                                | AI-powered copilot which greatly simplifies modeling configuration. Converts PDF work instruction documents into a preview of the proposed modeling structure. With a single click, you can automatically create the corresponding modeling data. Prompt management enables customers to customize the AI prompts for different document types. Note: This is available only through an early adopter program.                                            | Artificial Intelligence         | CR      | 2510    |
